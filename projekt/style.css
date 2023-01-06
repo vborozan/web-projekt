@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/naslovna.jpg);
+    }
+  
+  .navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  
+  }
+  
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.8s;
+  }
+  
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+
+  .pocetna {
+    text-align: center;
+    color:black;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+  }
+  
+  h1 {
+    color: white;
+    size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .h2 {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+  }
+
+  h3{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  h4{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  h5{
+    text-align: right;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 100px;
+  }
+  
+  h6 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .p {
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .pMTB{
+    text-align: left;
+    margin-left: 60px;
+    text-decoration: underline;
+  }
+
+  .pcross{
+    text-align: center;
+    margin-left: 60px;
+    text-decoration: underline;
+  }
+
+  .psjedalo{
+    text-align: right;
+    margin-right: 60px;
+    text-decoration: underline;
+  }
+  .kontaktiraj {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .proizvodi{
+    color: black;
+  }
+
+  #MTB {
+    margin-left: 30px;
+    background-image: none;
+  }
+
+  #cross {
+    margin-left: 500px;
+    margin-top: 30px;
+  }  
+  
+  #sjedalo {
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+ 
+  .mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+    margin: 15px;
+  }
+  
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .gmap_iframe {
+    height: 400px !important;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+ 
+  
+  
